@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+number {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#change {
+	display: flex;  /* defaults to row layout */
+	justify-content: center;  /* centers items horizontally in row layout */
+	align-items: center;  /* centers vertically in row layout */
+	/* flex-direction: column; will set layout to column instead of row */
+}
+
+button {
+    width: 80px;
+    height: 86px;
+    background-color: darkgray;
+    color: white;
+    font-size: 40px;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    margin: 0 15px 0;
+}
+
+button:hover {
+    background-color: white;
+    color: darkgray;
+}
+
+input {
+    height: 80px;
+    width: 150px;
+    border: 4px solid darkgray;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+}
